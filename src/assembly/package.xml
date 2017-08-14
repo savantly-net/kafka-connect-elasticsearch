@@ -38,6 +38,7 @@
                 <!-- Exclude these jars during packaging.-->
                 <exclude>org.apache.kafka:connect-api</exclude>
                 <exclude>org.apache.kafka:connect-json</exclude>
+                <exclude>org.slf4j:slf4j-api</exclude>
             </excludes>
         </dependencySet>
     </dependencySets>
